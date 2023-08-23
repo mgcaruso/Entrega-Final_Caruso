@@ -9,7 +9,7 @@
   </a>
 
   <h1 style="font-family: 'mokoto'" align="center">Solvix</h1>
-    <a href="https://solvix-ecommerce.vercel.app/">See Demo</a>
+    <!-- <a href="https://solvix-ecommerce.vercel.app/">See Demo</a> -->
 
   <p align="center">
     Your Online Shop for Cubing Unmatched Excellence.
@@ -145,7 +145,7 @@ The app admits three register and log in methods:
 
 ### Cube Recommendation Test
 
-<img src="/src/assets/images/cube-test.png" alt="Cube Test Screenshot" width="80" height="80">
+<img src="/src/assets/images/cube-test.png" alt="Cube Test Screenshot">
 
 There's a special section, accessible through the navbar, in which the buyer can take a cuber profile test. According to the result and the points obtained in the test, the buyer will be recommended a particular product that coindides with their cuber profile. They will be able to add the product to the cart and see the cube's detail.
 

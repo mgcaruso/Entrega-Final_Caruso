@@ -90,14 +90,16 @@ const CheckoutForm = () => {
                             itemsToRemove.push(cart[i]._id);
                             navigate("/stock-error")
                         }
-
-
                     }
+                    console.log(itemsToRemove)
 
                     let cartFiltered = cart.filter(item => !itemsToRemove.includes(item._id));
+                    console.log(cartFiltered)
+
 
                     if (error === 1) {
                         setCart(cartFiltered); //elimino el item que no tiene stock del cart y lo actualizo.
+                        localStorage.setItem("cart", JSON.stringify(cartFiltered));
                         setStockError(true);
                         navigate("/stock-error");
                         throw new Error("Not enough stock");
@@ -111,7 +113,7 @@ const CheckoutForm = () => {
                                     const cubeDoc = doc(db, "cubes", cart[i]._id);
                                     const newStock = parseInt(stockArr[i]) - parseInt(cart[i].quantity);
                                     updateDoc(cubeDoc, { stock: newStock })
-                                        .then((res) => {
+                                        .then(() => {
                                             setCart([]);
                                             localStorage.removeItem("cart");
                                             navigate(`/order-confirmed/${id}`);
