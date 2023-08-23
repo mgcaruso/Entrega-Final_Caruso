@@ -215,19 +215,6 @@ const CheckoutForm = () => {
 
                                 </div>
                             </div>
-                            {/* <div className="mb-6 pb-6 border-b border-gray-200">
-                                <div className="-mx-2 flex items-end justify-end">
-                                    <div className="flex-grow px-2 lg:max-w-xs">
-                                        <label className="text-gray-600 font-semisemibold text-sm mb-2 ml-1">Discount code</label>
-                                        <div>
-                                            <input className="w-full px-3 py-2 border border-gray-200 rounded-md focus:outline-none focus:border-key-color transition-colors" placeholder="XXXXXX" type="text" />
-                                        </div>
-                                    </div>
-                                    <div className="px-2">
-                                        <button className="block w-full max-w-xs mx-auto border border-transparent bg-gray-400 hover:bg-gray-500 focus:bg-gray-500 text-white rounded-md px-5 py-2 font-semisemibold">APPLY</button>
-                                    </div>
-                                </div>
-                            </div> */}
                             <div className="mb-6 pb-6 border-b border-gray-200 text-primary-inverted-hover dark:text-primary-hover">
                                 <div className="w-full flex mb-3 items-center">
                                     <div className="flex-grow">
@@ -276,14 +263,6 @@ const CheckoutForm = () => {
                                                 className="w-full px-3 py-2 mb-1 border border-gray-200 dark:border-neutral dark:bg-primary-inverted-hover rounded-md focus:outline-none focus:border-key-color transition-colors" placeholder="John Smith" type="text" required />
                                         </div>
                                     </div>
-
-                                    {/* <div className="mb-3">
-                                        <label className="text-gray-600 font-semisemibold text-sm mb-2 ml-1">Country</label>
-                                        <div>
-                                            <input
-                                                className="w-full px-3 py-2 mb-1 border border-gray-200 rounded-md focus:outline-none focus:border-key-color transition-colors" placeholder="Argentina" type="text" required />
-                                        </div>
-                                    </div> */}
 
                                     <label htmlFor='country' className="text-gray-600 dark:text-primary-hover font-semisemibold text-sm mb-2 ml-1">Country*</label>
                                     <Select
