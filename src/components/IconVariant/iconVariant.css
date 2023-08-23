@@ -1,0 +1,77 @@
+/* GRID LAYOUT */
+:root{
+    
+    --margin: .6px;
+    --height: 7.5px;
+
+}
+
+
+
+.squares {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    
+}
+
+
+.square1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.square2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.square3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.square4 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.square5 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.square6 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.square7 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.square8 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.square9 {
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.square {
+    margin: var(--margin);
+    height: var(--height);
+    width: var(--height);
+    border-radius: 1.7px;
+}
+
+.stickerless{
+    border-radius: 0;
+    height: calc(var(--height) + var(--margin));
+    width: calc(var(--height) + var(--margin));
+    margin: 0;
+}
+
+.sq-black{
+    border-radius: 1.7px;
+    height: var(--height);
+    margin: var(--margin);
+    width: var(--height);
+}

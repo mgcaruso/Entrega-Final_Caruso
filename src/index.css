@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,800;0,900;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  /* COMPONENT HEIGHTS */
+  --navbar-height: 10vh;
+  --footer-height: 28vh;
+  --full-height: 100vh;
+  --main-height: calc(var(--full-height) - (var(--navbar-height) + var(--footer-height)));
+
+  /* KEY COLORS INCLUDED IN TAILWIND CONFIG */
+  --primary: #ffffff;
+  --primary-hover: #f3f4f6;
+  --primary-inverted: #1A1A1C;
+  --primary-inverted-hover: #3D3D41;
+  --neutral: #8c929c;
+  --neutral-lighter: #dadbdd;
+  --neutral-ultra-light: #E6E7E8;
+  --ultra-light: #f3f4f6;
+  --btn-fill: #ba181b;
+  --btn-fill-hover: #a4161a;
+  --key-color: #3b75b8;
+  --key-color-hover: #549ff3;
+
+  /* FONTS INCLUDED IN TAILWIND CONFIG*/
+  --branding: "mokoto";
+  --body: "rubik";
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.App,
+main,
+footer {
+  display: flex;
+}
+
+.App {
+  min-height: var(--full-height);
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+main {
+  min-height: calc(var(--full-height) - var(--navbar-height));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+.main-secondary-pages{
+  min-height: var(--main-height);
+}
+
+.bg-image{
+  background-image: url('./assets/images/wall1.png');
+}
+
+
+/* Sign In Component */
+.b-radius{
+  border-radius: 75% 0% 25% 75% / 0% 25% 0% 97%;
+}
+
+/* Sign Up component */
+
+.b-sign-up{
+  border-radius: 25% 45% 27% 25% / 0% 52% 0% 0%;
+}
+
+
+
+@media (max-width: 564px) {
+
+  main {
+    flex-direction: column !important;
+  }
+
+  .logo-img {
+    height: 12rem;
+  }
+
+}
+
+@media (max-width: 320px){
+  main{
+    min-height: calc(var(--full-height) - var(--navbar-height));
+    justify-content: center;
+
+  }
+}
+
+@font-face {
+  font-family: "Mokoto";
+  src: url("./assets/fonts/mokoto.regular.ttf");
+}

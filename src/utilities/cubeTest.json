@@ -1,0 +1,110 @@
+[
+    {
+        "label": "Question 1",
+        "question": "What's your average time to solve a 3x3 Rubik's Cube?",
+        "answers": [
+            {
+                "text": "My average solve time is around 12 seconds, I'm always trying to improve my speed.",
+                "profile": "speedcuber"
+            },
+            {
+                "text": "Around 2 or 3 minutes. I take my time to plan each move and ensure a precise solution.",
+                "profile": "strategist"
+            },
+            {
+                "text": "I enjoy solving at a relaxed pace. It's not about speed for me.",
+                "profile": "enthusiast"
+            }
+        ]
+    },
+    {
+        "label": "Question 2",
+        "question": "How do you approach solving a new, unfamiliar puzzle?",
+        "answers": [
+            {
+                "text": "I analyze the puzzle's mechanics quickly and try to figure out optimal solving techniques.",
+                "profile": "speedcuber"
+            },
+            {
+                "text": "I carefully examine the puzzle, break down its movements, and develop a step-by-step plan.",
+                "profile": "strategist"
+            },
+            {
+                "text": "I take my time exploring the new puzzle, often without any rush to solve it quickly.",
+                "profile": "enthusiast"
+            }
+        ]
+    },
+    {
+        "label": "Question 3",
+        "question": "Which cube brand and model do you prefer for speedcubing?",
+        "answers": [
+            {
+                "text": "I swear by GAN. It's designed for maximum speed and precision.",
+                "profile": "speedcuber"
+            },
+            {
+                "text": "I've found that Moyu suit my solving style perfectly. It provides the right balance of stability.",
+                "profile": "strategist"
+            },
+            {
+                "text": "I don't have a strong preference. I usually stick with a standard Rubik's brand cube or whatever is readily available.",
+                "profile": "enthusiast"
+            }
+        ]
+    },
+    {
+        "label": "Question 4",
+        "question": "Do you prefer solving alone or in a relaxed, social setting?",
+        "answers": [
+            {
+                "text": "I mostly prefer solving alone to maintain focus and achieve better times. Competitive settings help me perform my best.",
+                "profile": "speedcuber"
+            },
+            {
+                "text": "I enjoy both, but I lean towards solving alone. It allows me to concentrate and refine my strategies.",
+                "profile": "strategist"
+            },
+            {
+                "text": "I love solving in a relaxed, social environment. It's more about sharing the experience with friends.",
+                "profile": "enthusiast"
+            }
+        ]
+    },
+    {
+        "label": "Question 5",
+        "question": "What aspect of solving Rubik's Cubes appeals to you the most?",
+        "answers": [
+            {
+                "text": "The adrenaline rush of beating my own records and competing against others keeps me hooked.",
+                "profile": "speedcuber"
+            },
+            {
+                "text": "I'm captivated by the puzzle's intricate patterns and the satisfaction of solving complex algorithms.",
+                "profile": "strategist"
+            },
+            {
+                "text": "I find solace in the repetitive motions and the soothing feeling of piecing the colors together.",
+                "profile": "enthusiast"
+            }
+        ]
+    },
+    {
+        "label": "Question 6",
+        "question": "How patient are you when working on a tough puzzle?",
+        "answers": [
+            {
+                "text": "I'm patient, but I also recognize when to switch techniques if progress isn't swift. Efficiency is key.",
+                "profile": "speedcuber"
+            },
+            {
+                "text": "I'm extremely patient. I'll spend as long as it takes to understand the puzzle thoroughly and solve it with precision.",
+                "profile": "strategist"
+            },
+            {
+                "text": "I'm very patient. I enjoy taking my time and savoring the challenge, even if it takes a while to crack.",
+                "profile": "enthusiast"
+            }
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+@media (max-width: 564px) {
+    .banner-container {
+        align-items: center;
+    }
+    .slogan {
+        margin-inline: 2rem;
+        text-align: center;
+    }
+}
+@media (max-width: 320px) {
+    .heading{
+        font-size: 3rem;
+    }
+    .slogan {
+        font-size: 1.5rem;
+    }
+}

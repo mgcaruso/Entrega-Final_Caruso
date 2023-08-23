@@ -1,0 +1,16 @@
+ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+li {
+    list-style: outside none !important;
+    padding-left: 1rem !important;
+    margin: .5rem 0;
+    text-align: justify;
+}
+
+

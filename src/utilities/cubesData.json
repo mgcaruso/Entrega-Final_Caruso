@@ -1,0 +1,222 @@
+[
+    {
+        "id":1,
+        "name": "JUMBO DOUBLE MEGAMINX (9.0CM)",
+        "price": "34.99",
+        "stock": "5",
+        "description": "The Jumbo Double Megamix is a set of fused megaminxes. This is done by removing a layer from each megaminx and attaching them. If you can solve a megaminx, you can solve this large combination puzzle from Calvin's!",
+        "brand":"Calvin's Puzzle",
+        "category":"Classics",
+        "variants": [
+            {
+                "name": "stickerless",
+                "image": "https://www.thecubicle.com/cdn/shop/files/Jumbo-Double-Megaminx-9.0cm-stickerless_1024x1024@2x.jpg?v=1689015266"
+            },
+            {
+                "name": "black",
+                "image": "https://www.thecubicle.com/cdn/shop/files/Jumbo-Double-Megaminx-9.0cm-black_1024x1024@2x.jpg?v=1689015271"
+            }
+        ],
+        "specials":["New", "Offer"]
+    },
+    {
+        "id":2,
+        "name": "DIANSHENG BIG 3X3 M (7CM)",
+        "price": "16.99",
+        "stock": "10",
+        "description": "The DianSheng Big 3x3 M (7cm) is part of a new line of large 3x3s from DianSheng. These are all built like speedcubes, just supersized! They are magnetic and turn well right out of the box!",
+        "brand":"DianSheng",
+        "category":"Speedcubes",
+        "variants": [
+            {
+                "name": "stickerless",
+                "image": "https://www.thecubicle.com/cdn/shop/files/DianSheng-Big-3x3-M-7cm_1024x1024@2x.jpg?v=1689178923"
+            }
+        ],
+        "specials":[]
+    },
+    {
+        "id":3,
+        "name": "YUXIN BLACK KIRIN MIRROR CUBE",
+        "price": "5.99",
+        "stock": "3",
+        "description": "The YuXin Black Kirin Mirror Cube is a popular 3x3x3 shape mod in which the dimensions of the pieces determine where it must go in a solved state. This allows it to achieve many weird shapes and makes putting it back together a unique challenge.",
+        "brand":"YuXin",
+        "category":"Shape-Shifting Cubes",
+        "variants": [
+            {
+                "name": "blue",
+                "image": "https://www.thecubicle.com/cdn/shop/products/yuxinblackkirinblackblue_1024x1024@2x.jpg?v=1581457796"
+            },
+            {
+                "name": "gold",
+                "image": "https://www.thecubicle.com/cdn/shop/products/yuxinblackkirinmirrorcubeb1_1024x1024@2x.jpg?v=1581457795"
+            },
+            {
+                "name": "silver",
+                "image": "https://www.thecubicle.com/cdn/shop/products/yuxinblackkirinsilver_1024x1024@2x.jpg?v=1581457798"
+            }
+        ],
+        "specials":[]
+    },
+    {
+        "id":4,
+        "name": "GAN MIRROR M",
+        "price": "24.00",
+        "stock": "0",
+        "description": "The GAN Mirror M is the world's first mass produced magnetic mirror cube! This is a puzzle built with speed in mind. It features 48 magnets in the pieces, a screw/spring tension system, great corner cutting, and iridescent starlight purple stickers on a purple cube.",
+        "brand":"GAN",
+        "category":"Shape-Shifting Cubes",
+        "variants": [
+            {
+                "name": "blue",
+                "image": "https://www.thecubicle.com/cdn/shop/files/gan-mirror-cube_1024x1024@2x.jpg?v=1688067356"
+            }
+        ],
+        "specials":["Offer"]
+    },
+    {
+        "id":5,
+        "name": "YJ MGC 2X2",
+        "price": "11.99",
+        "stock": "4",
+        "description": "The YJ MGC 2x2 is a fast and flexible magnetic 2x2 speed cube. A relatively strong magnetic feel coupled with smooth, light turning make this cube a favorite for beginners and professional solvers alike",
+        "brand":"YJ",
+        "category":"Shape-Shifting Cubes",
+        "variants": [
+            {
+                "name": "stickerless",
+                "image": "https://speedcubeshop.com/cdn/shop/products/JPerm-MGC-2x2-Magnetic-Stickerless-Bright-2.jpg?v=1681853843"
+            },
+            {
+                "name": "black",
+                "image": "https://speedcubeshop.com/cdn/shop/products/YJ-MGC-2x2-Magnetic-6.jpg?v=1681848340"
+            }
+        ],
+        "specials":["Offer"]
+    },
+    {
+        "id":6,
+        "name": "BLIND DICE CUBE V1",
+        "price": "15.99",
+        "stock": "5",
+        "description": "The Blind Dice Cube V1 is a standard, non-magnetic 3x3 with raised dots (like dice) on each piece. The numbers go from 1-9 and the object of the puzzle is to get all numbers in order on each face. And since you can feel the raised dots, you don't have to look at the cube to solve it!",
+        "brand":"Other",
+        "category":"Special Edition Cubes",
+        "variants": [
+            {
+                "name": "black",
+                "image": "https://www.thecubicle.com/cdn/shop/files/Blind-Dice-Cube-V1_1024x1024@2x.jpg?v=1686856267"
+            }
+        ],
+        "specials":["New"]
+    },
+    {
+        "id":7,
+        "name": "Lee Bandaged Mirror 3x3 CUBE",
+        "price": "15.95",
+        "stock": "15",
+        "description": "Lee Bandaged Mirror 3x3 Cube is a modification of the popular 'mirror cube' design. The bandaged portion of the puzzle prevents some turns which adds to the complexity of the solution!",
+        "brand":"Calvin's Puzzle",
+        "category":"Shape-Shifting Cubes",
+        "variants": [
+            {
+                "name": "blue",
+                "image": "https://speedcubeshop.com/cdn/shop/products/Lee-Bandaged-Mirror-3x3-Cube-Black-Blue-Stickers_e0643289-af47-4be1-841b-2b634c81edef_540x.jpg?v=1681854463"
+            }
+        ],
+        "specials":["New"]
+    },
+    {
+        "id":8,
+        "name": "YUXIN LITTLE MAGIC 2X2",
+        "price": "5.99",
+        "stock": "5",
+        "brand":"YuXin",
+        "description": "The YuXin Little Magic 2x2 is a budget 2x2x2 speed cube from YuXin. Lightweight, with advanced design and a frosted exterior, the YuXin Little Magic 2x2 feels similar to more expensive speed cubes, at a very economical and inexpensive price point. It is perfect for beginners and experts alike.",
+        "category":"Classics",
+        "variants": [
+            {
+                "name": "stickerless",
+                "image": "https://cuboss.com/wp-content/uploads/2021/11/yuxin-little-magic-2x2-v2-m.jpg"
+            },
+            {
+                "name": "black",
+                "image": "https://cancube.ca/cdn/shop/products/YLM_2x2_1200x1200.jpg?v=1555082504"
+            }
+        ],
+        "specials":[]
+    },
+    {
+        "id":9,
+        "name": "SHENGSHOU TANK 4X4",
+        "price": "7.90",
+        "stock": "2",
+        "description": "The ShengShou Tank 4x4 is a new economy 4x4 speed cube that features a vibrant color scheme, frosted exterior, and black internals.",
+        "brand":"ShengShou",
+        "category":"Classics",
+        "variants": [
+            {
+                "name": "stickerless",
+                "image": "https://www.cubezz.com/images/201805/goods_img/5635_P_1526013936155.jpg"
+            }
+        ],
+        "specials":[]
+    },
+    {
+        "id":10,
+        "name": "GAN PYRAMINX M STANDARD",
+        "price": "18.99",
+        "stock": "12",
+        "description": "The GAN Pyraminx is a new pyraminx by famous speedcube manufacturer GAN. This puzzle is the world’s first pyraminx with GAN’s novel core-edge magnetic positioning system. In addition to this never-before-seen magnetic system, the GAN Pyraminx has GAN’s classic honeycomb design for smooth and comfortable turning.",
+        "brand":"GAN",
+        "category":"Classics",
+        "variants": [
+            {
+                "name": "stickerless",
+                "image": "https://www.thecubicle.com/cdn/shop/files/gan-pyraminx-standard_1024x1024@2x.jpg?v=1689862786"
+            }
+        ],
+        "specials":["New"]
+    },
+    {
+        "id":11,
+        "name": "SHENGSHOU MASTERMORPHIX",
+        "price": "7.99",
+        "stock": "2",
+        "description": "The ShengShou Mastermorphix is a pillowed, pyramid-shaped twisty puzzle from the popular manufacturer ShengShou. It comes with an instructions manual, and it is 'stickerless,' meaning that its sides come with distinct color plastics so that stickers are not necessary.",
+        "brand":"ShengShou",
+        "category":"Shape-Shifting Cubes",
+        "variants": [
+            {
+                "name": "stickerless",
+                "image": "https://cuboss.com/wp-content/uploads/2020/01/shengshou-mastermorphix-1.jpg"
+            }
+        ],
+        "specials":["New"]
+    },
+    {
+        "id":12,
+        "name": "LEE MIRROR 4X4X4 CUBE",
+        "price": "44.99",
+        "stock": "6",
+        "description": "The Lee Mirror 4x4x4 is a 4x4 version of the classic mirror cube. This puzzle features 3d printed extensions added to the pieces of a standard 4x4.",
+        "brand":"Calvin's Puzzle",
+        "category":"Shape-Shifting Cubes",
+        "variants": [
+            {
+                "name": "silver",
+                "image": "https://www.thecubicle.com/cdn/shop/products/silverbump4x4_1024x1024@2x.jpg?v=1616598358"
+            },
+            {
+                "name": "gold",
+                "image": "https://www.thecubicle.com/cdn/shop/products/mirror_4x4_black_gold_1024x1024@2x.jpg?v=1631050086"
+            },
+            {
+                "name": "red",
+                "image": "https://kubekings.com/31660-large_default/mirror-cube-4x4.jpg"
+            }
+        ],
+        "specials":["New"]
+    }
+]
